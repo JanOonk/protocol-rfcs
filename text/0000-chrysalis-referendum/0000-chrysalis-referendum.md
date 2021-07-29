@@ -349,7 +349,7 @@ If there is no such optionID for a question, the question is ignored and no vote
 
 
 * GET /referendum/{referendumID} : Gives a quick overview over the referendum. This does not include the questions or current standings.
-* GET /referendum/{referendumID}/questions : Returns the entire vote with all questions, but not current standings.
+* GET /referendum/{referendumID}/questions : Returns the entire referendum with all questions, but not current standings.
 * GET /referendum/{referendumID}/questions/{questionIdx} : Returns information and vote options for a specific question
 * GET /referendum/{referendumID}/status : Returns the amount of tokens voting and the weight on each option of every question
 * GET /referendum/{referendumID}/status/{questionIdx} : Return the amount of tokens voting for each option on the specified question
